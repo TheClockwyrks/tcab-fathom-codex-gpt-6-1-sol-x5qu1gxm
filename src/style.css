@@ -1,0 +1,7 @@
+/* Keep the page's viewport sizing authoritative when the engine pins an
+   attribute-sized canvas with an inline pixel size. The engine still owns
+   the backing store, device ratio, letterboxing, and logical transform. */
+#stage {
+  width: 100vw !important;
+  height: 100vh !important;
+}
